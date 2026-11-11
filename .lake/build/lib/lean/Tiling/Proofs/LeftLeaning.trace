@@ -1,0 +1,37 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["6e77cc1e6b2acce7.olean"],
+  "m": false,
+  "i": "cf371b07b6e0dfa0.ilean",
+  "c": "c7daa4c0b202f9e7.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Cli/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/batteries/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Qq/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/aesop/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/importGraph/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/plausible/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/mathlib/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/lean_wang/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean /Users/snf413/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/LeftLeaning.lean -o /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/LeftLeaning.olean -i /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/LeftLeaning.ilean -c /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/LeftLeaning.c --setup /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/LeftLeaning.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "Tiling/Proofs/LeftLeaning.lean:247:2: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"}],
+ "inputs":
+ [["Tiling.Proofs.LeftLeaning:deps",
+   [["deps",
+     [["Tiling/Tiling:extraDep", [["@Tiling:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Tiling.Proofs.Corners transitive imports (legacy)",
+         "0d5a7356b953104d"],
+        ["Tiling.Proofs.Corners:importAllArts", "64094b5725e429e1"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.31.0, commit 68218e876d2a38b1985b8590fff244a83c321783",
+   "fc45ac412f28501c"],
+  ["/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/LeftLeaning.lean",
+   "41701a759ca7922e"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Tiling.Proofs.LeftLeaning", "801394c5aea4d0b3"],
+  ["Package.id?: (some Tiling)", "fd1714062773201a"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "67a6b218e789efb2"}

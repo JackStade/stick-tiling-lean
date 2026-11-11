@@ -1,0 +1,40 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["ea139b6da933dc2a.olean"],
+  "m": false,
+  "i": "0a209978ddfc8121.ilean",
+  "c": "b7222b9c17d532f9.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Cli/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/batteries/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Qq/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/aesop/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/importGraph/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/plausible/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/mathlib/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/lean_wang/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean /Users/snf413/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/GapBackward.lean -o /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/GapBackward.olean -i /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/GapBackward.ilean -c /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/GapBackward.c --setup /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/GapBackward.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "Tiling/Proofs/GapBackward.lean:92:2: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/GapBackward.lean:103:4: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"}],
+ "inputs":
+ [["Tiling.Proofs.GapBackward:deps",
+   [["deps",
+     [["Tiling/Tiling:extraDep", [["@Tiling:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Tiling.Proofs.GapForward transitive imports (legacy)",
+         "8d95fa3ffb1276a9"],
+        ["Tiling.Proofs.GapForward:importAllArts", "4f8eb3f0fd507cfa"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.31.0, commit 68218e876d2a38b1985b8590fff244a83c321783",
+   "fc45ac412f28501c"],
+  ["/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/GapBackward.lean",
+   "9b90d1c3653104ec"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Tiling.Proofs.GapBackward", "b451a9b3bc278ec3"],
+  ["Package.id?: (some Tiling)", "fd1714062773201a"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "05a6dc7b1c564cff"}

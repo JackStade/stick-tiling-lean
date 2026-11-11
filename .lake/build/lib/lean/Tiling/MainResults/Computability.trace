@@ -1,0 +1,33 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["2f27d9d31301e4c1.olean"],
+  "m": false,
+  "i": "4f70b5c5f8fc6b3a.ilean",
+  "c": "6b8c981bf347810f.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Cli/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/batteries/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Qq/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/aesop/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/importGraph/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/plausible/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/mathlib/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/lean_wang/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean /Users/snf413/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/MainResults/Computability.lean -o /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/MainResults/Computability.olean -i /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/MainResults/Computability.ilean -c /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/MainResults/Computability.c --setup /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/MainResults/Computability.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["Tiling.MainResults.Computability:deps",
+   [["deps",
+     [["Tiling/Tiling:extraDep", [["@Tiling:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["LeanWang.CoRE transitive imports (legacy)", "a0fd74132b281f91"],
+        ["LeanWang.CoRE:importAllArts", "ca1a272293f562aa"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.31.0, commit 68218e876d2a38b1985b8590fff244a83c321783",
+   "fc45ac412f28501c"],
+  ["/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/MainResults/Computability.lean",
+   "7333a4f71ee048c3"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Tiling.MainResults.Computability", "8d6f89f1d4458c53"],
+  ["Package.id?: (some Tiling)", "fd1714062773201a"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "e635783ce90a25a5"}

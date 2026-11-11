@@ -1,0 +1,52 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["7aca0ea719912b8f.olean"],
+  "m": false,
+  "i": "f23d732c829e3e0c.ilean",
+  "c": "e2ce1734949be30a.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Cli/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/batteries/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Qq/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/aesop/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/importGraph/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/plausible/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/mathlib/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/lean_wang/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean /Users/snf413/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/SchematicRows.lean -o /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/SchematicRows.olean -i /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/SchematicRows.ilean -c /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/SchematicRows.c --setup /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/SchematicRows.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "Tiling/Proofs/SchematicRows.lean:69:4: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/SchematicRows.lean:75:4: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/SchematicRows.lean:90:2: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/SchematicRows.lean:93:4: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/SchematicRows.lean:98:4: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/SchematicRows.lean:106:2: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"}],
+ "inputs":
+ [["Tiling.Proofs.SchematicRows:deps",
+   [["deps",
+     [["Tiling/Tiling:extraDep", [["@Tiling:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Tiling.Proofs.Schematic transitive imports (legacy)",
+         "734fb8b58723b2cd"],
+        ["Tiling.Proofs.Schematic:importAllArts", "86c460ea2b0bdaaf"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.31.0, commit 68218e876d2a38b1985b8590fff244a83c321783",
+   "fc45ac412f28501c"],
+  ["/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/SchematicRows.lean",
+   "b4efca309193de26"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Tiling.Proofs.SchematicRows", "5554b99a5b992a06"],
+  ["Package.id?: (some Tiling)", "fd1714062773201a"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "85c7d917ff0faddf"}

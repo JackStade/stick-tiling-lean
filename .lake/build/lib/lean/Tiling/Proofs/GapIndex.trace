@@ -1,0 +1,43 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["877fc79543248731.olean"],
+  "m": false,
+  "i": "3b6d5bc06343bbe9.ilean",
+  "c": "52438d4e1063aa10.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Cli/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/batteries/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/Qq/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/aesop/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/importGraph/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/plausible/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/mathlib/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/packages/lean_wang/.lake/build/lib/lean:/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean /Users/snf413/.elan/toolchains/leanprover--lean4---v4.31.0/bin/lean /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/GapIndex.lean -o /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/GapIndex.olean -i /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/lib/lean/Tiling/Proofs/GapIndex.ilean -c /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/GapIndex.c --setup /Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/.lake/build/ir/Tiling/Proofs/GapIndex.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "Tiling/Proofs/GapIndex.lean:198:4: 'push_cast at hpb hqb ⊢' tactic does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/GapIndex.lean:204:4: 'push_cast at hpb hqb ⊢' tactic does nothing\n\nNote: This linter can be disabled with `set_option linter.unusedTactic false`",
+   "level": "warning"},
+  {"message":
+   "Tiling/Proofs/GapIndex.lean:219:4: `push_neg` has been deprecated. Prefer using `push Not` instead.\nIf you'd rather continue using `push_neg` in your project, you can implement it as follows:\n```\nopen Lean.Parser.Tactic in\nmacro \"push_neg\" cfg:optConfig loc:(location)? : tactic =>\n  `(tactic| push $cfg:optConfig Not $[$loc]?)\n```",
+   "level": "warning"}],
+ "inputs":
+ [["Tiling.Proofs.GapIndex:deps",
+   [["deps",
+     [["Tiling/Tiling:extraDep", [["@Tiling:extraDep", "00000000000006bb"]]],
+      ["imports",
+       [["Tiling.Proofs.GapAssignment transitive imports (legacy)",
+         "4f850c264f457cc4"],
+        ["Tiling.Proofs.GapAssignment:importAllArts", "c2ec7b49b3944bde"]]]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.31.0, commit 68218e876d2a38b1985b8590fff244a83c321783",
+   "fc45ac412f28501c"],
+  ["/Users/snf413/Desktop/ChatGPT/Two Tiling Aristotle/Tiling/Proofs/GapIndex.lean",
+   "40d72ed8aa6653b1"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Tiling.Proofs.GapIndex", "ccbdfca7f68e75b7"],
+  ["Package.id?: (some Tiling)", "fd1714062773201a"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "4ef1a1fc35a90d46"}
