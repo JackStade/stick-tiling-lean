@@ -40,3 +40,11 @@ lake build
 The code in this project was produced primarirly by [Aristotle](https://aristotle.harmonic.fun).
 
 Some smaller edits and refactoring were done using ChatGPT 5.6 Sol and ChatGPT 6 Astra.
+
+## License
+
+Copyright 2026 Jack Stade
+
+This project is licensed under the [Apache License 2.0](LICENSE).
+
+
