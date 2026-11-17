@@ -10,7 +10,7 @@ The results that we formalise are:
 - undecidability of stick tiling;
 - co-RE hardness of stick tiling.
 
-The statements of these results and necessary definitions are contained in **[Tiling/MainResults/README.md](Tiling/MainResults/README.md)**.
+The statements of these results and necessary definitions are contained in `Tiling/MainResults`.
 Technical proofs live in `Tiling/Proofs`. The main result is also available as
 `StickPolyhex.ABSim.theorem2` in `Tiling/Proofs/Undecidability.lean`. 
 The undecidability and co-RE hardness results use [`lean-wang`](https://github.com/edemaine/lean-wang) to provide a formalisation of the undecideability and hardness of Wang tiling.
